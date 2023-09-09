@@ -3,10 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  host: {
-   class: "cover-container d-flex w-100 h-100 p-2 mx-auto flex-column"
-  }
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'pepartech';
